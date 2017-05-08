@@ -1,0 +1,16 @@
+Package: drugcomb
+Version: 0.1
+Title: Drug combination screening for synergy, additive effects and plots.
+Author: zongzhi liu <zongzhi.liu@gmail.com>
+Maintainer: zongzhi liu <zongzhi.liu@gmail.com>
+License: GPL (>=2)
+Depends:
+    R (>= 2.11.0),
+    gplots,
+    sqldf
+Description: Drug combination screening for synergy, additive effects and plots.
+Collate:
+    'plot_cellline.R'
+    'plot_each_cellline.R'
+    'plot.R'
+    'util.R'
